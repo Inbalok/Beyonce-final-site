@@ -5,13 +5,14 @@ EDIT ON
   padding: 0;
   background: #000000;
 }
-
+ /* logo */
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* global nav */
 .nav ul {
   list-style: none;
   background-color: #ffffff;
@@ -60,33 +61,63 @@ img {
     height: 50px;
     line-height: 50px;
     font-size: 1.4em;
-  }
-
-  /* Option 1 - Display Inline */
-  .nav li {
     display: inline-block;
     margin-right: -4px;
   }
+
+  /* Option 1 - Display Inline */
+  /* .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  } */
+  .table {
+    margin-top: 20px;
+    border-spacing: 15px;
+  }
+
+  tr {
+    padding: 10px;
+    font-family: 'Segoe UI'; sans-serif;
+    font-size: 18px;
+  }
+
   p {
   font-family: 'Segoe UI'; sans-serif;
   font-size: 16px;
-  margin-right: 100px;
-  margin-left: 700px;
+  /* margin-right: 10px;
+  margin-left: 700px; */
   }
 
 div {
-  padding: 10px; */for all;
+  padding: 10px;
 
 }
+
 h1 {
     font-family: 'Segoe UI'; sans-serif;
     font-size: 30px;
     font-weight: 400;
-    margin-left: 100px;
-    padding-top: 50px;
 }
+
 ul {
   font-family: 'Segoe UI'; sans-serif;
   font-size: 16px;
   margin-left: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+  width: 100%;
+}
+
+.column {
+  width: 33.33%;
+  padding: 10px;
+  height: 100px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
