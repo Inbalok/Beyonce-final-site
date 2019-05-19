@@ -12,6 +12,15 @@ img {
   margin-right: auto;
 }
 
+#bg {
+  position: fixed;
+  top: 160px;
+  left: 0;
+  min-width: 80%;
+  min-height: 80%;
+  align-items: center;
+}
+
 /* global nav */
 .nav ul {
   list-style: none;
@@ -65,11 +74,6 @@ img {
     margin-right: -4px;
   }
 
-  /* Option 1 - Display Inline */
-  /* .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  } */
   .table {
     margin-top: 20px;
     border-spacing: 15px;
@@ -84,8 +88,6 @@ img {
   p {
   font-family: 'Segoe UI'; sans-serif;
   font-size: 16px;
-  /* margin-right: 10px;
-  margin-left: 700px; */
   }
 
 div {
@@ -120,4 +122,10 @@ ul {
   content: "";
   display: table;
   clear: both;
+}
+
+/* shop */
+.giphy {
+  display: block;
+  float:left;
 }

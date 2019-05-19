@@ -4,6 +4,8 @@
  <title>Discography</title>
   <link rel="shortcut icon" href="./assets/images/b-icon.png" />
   <link rel="stylesheet" href="./assets/stylesheets/styles.css" />
+  <link rel="stylesheet" href="./assets/stylesheets/slick.css" />
+  <link rel="stylesheet" href="./assets/stylesheets/slick-theme.css" />
 
  </head>
  <body>
@@ -28,7 +30,24 @@
      </div>
    </header>
 
-</body>
+   <section class="albums">
+     <div><img src="./assets/images/beyonce-album-cover.jpg" alt="4 album cover" style="width:254px; height:254px;"  /></div>
+     <div><img src="./assets/images/lemonade-album-cover.jpg" alt="Lemonade album cover" style="width:254px; height:254px;" /></div>
+     <div><img src="./assets/images/homecoming-album-cover.jpg" alt="Homecoming album cover"style="width:254px; height:254px;" /></div>
+    <div><img src="./assets/images/love-cover.jpg" alt="Everything is love album cover" style="width:254px; height:254px;" /></div>
+   </section>
 
  <script src="./assets/javascripts/jquery.js"></script>
+ <script src="./assets/javascripts/slick.min.js"></script>
+ <script>
+  $(document).ready(function(){
+    $('.albums').slick({
+   dots: true,
+   infinite: true,
+   slidesToShow: 3,
+   slidesToScroll: 3
+ });
+  });
+ </script>
+ </body>
 </html>
