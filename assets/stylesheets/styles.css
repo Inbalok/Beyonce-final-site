@@ -31,7 +31,8 @@ slick-next {
 
 .slick-prev:before,
 .slick-next:before {
-  color: white!important;
+  color: black!important;
+  background-color: white!important;
 }
 
 .slick-slide > div {
