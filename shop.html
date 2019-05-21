@@ -29,7 +29,7 @@
    </header>
 
  <div class="giphy">
-   <img src="./assets/images/giphy.gif" alt="beyonce illustration gif" style="width: 415px; height: 527px; float:left; padding: 0 50px;" />
+   <img src="./assets/images/giphy.gif" alt="beyonce illustration gif" style="width: 382px; height: 485px; float:left; padding-top: 40px; padding: 65px;" />
  </div>
 
    <div id="myBtnContainer">
@@ -40,21 +40,23 @@
      <button class="btn" onclick="filterSelection('bags')"> Bags</button>
    </div>
 
- <div>
-     <div class="filterDiv youth"><img src="./assets/images/filter/youth.png" alt="baby onsie" style="width:191px; height:191px;"/></div>
-     <div class="filterDiv bags"><img src="./assets/images/filter/bag-1.png" alt="tote bag" style="width:191px; height:191px;"/></div>
-     <div class="filterDiv headwear"><img src="./assets/images/filter/headwear-1.png" alt="lemonade hat" style="width:191px; height:191px;"/></div>
-     <div class="filterDiv tops"><img src="./assets/images/filter/topwear-1.png" alt="bodysuit" style="width:191px; height:191px;"/></div>
-     <div class="filterDiv tops"><img src="./assets/images/filter/topwear-2.jpg" alt="neon hoodie" style="width:191px; height:191px;"/></div>
-     <div class="filterDiv headwear"><img src="./assets/images/filter/headwear-2.png" alt="otr2 beanie" style="width:191px; height:191px;" /></div>
-     <div class="filterDiv headwear"><img src="./assets/images/filter/headwear-3.png" alt="'die with you' black hat" style="width:191px; height:191px;" /></div>
-     <div class="filterDiv tops"><img src="./assets/images/filter/topwear-3.png" alt="white T-shirt Beyonce image" style="width:191px; height:191px;" /></div>
-     <div class="filterDiv tops"><img src="./assets/images/filter/topwear-4.png" alt="white T-shirt Beyonce head image" style="width:191px; height:191px;" /></div>
- </div>
+
+     <div class="wrapper">
+       <div class="filterDiv youth" "box"><img src="./assets/images/filter/youth.png" alt="baby onsie" style="width:191px; height:191px;"/></div>
+       <div class="filterDiv bags" "box"><img src="./assets/images/filter/bag-1.png" alt="tote bag" style="width:191px; height:191px;"/></div>
+       <div class="filterDiv headwear" "box"><img src="./assets/images/filter/headwear-1.png" alt="lemonade hat" style="width:191px; height:191px;"/></div>
+       <div class="filterDiv tops" "box"><img src="./assets/images/filter/topwear-1.png" alt="bodysuit" style="width:191px; height:191px;"/></div>
+       <div class="filterDiv tops" "box"><img src="./assets/images/filter/topwear-2.jpg" alt="neon hoodie" style="width:191px; height:191px;"/></div>
+       <div class="filterDiv headwear" "box"><img src="./assets/images/filter/headwear-2.png" alt="otr2 beanie" style="width:191px; height:191px;" /></div>
+       <div class="filterDiv headwear" "box"><img src="./assets/images/filter/headwear-3.png" alt="'die with you' black hat" style="width:191px; height:191px;" /></div>
+       <div class="filterDiv tops" "box"><img src="./assets/images/filter/topwear-3.png" alt="white T-shirt Beyonce image" style="width:191px; height:191px;" /></div>
+       <div class="filterDiv tops" "box"><img src="./assets/images/filter/topwear-4.png" alt="white T-shirt Beyonce head image" style="width:191px; height:191px;" /></div>
+     </div>
 
 
 
-<!-- <script src="./assets/javascripts/jquery.js"></script> -->
+
+<script src="./assets/javascripts/jquery.js"></script>
 <script>
   filterSelection("all")
   function filterSelection(c) {
