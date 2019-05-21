@@ -20,20 +20,15 @@ EDIT ON
     padding-bottom: 40px;
 }
 
-.prev{
-      display: block;
-      height: 20px;
-      width: 20px;
-      background: url('../img/back.png') no-repeat;
-    }
-
-  .next{
-      display: block;
-      height: 20px;
-      width: 20px;
-      background: #ffffff no-repeat;
-    }
-
+slick-next {
+    font-size: 0;
+    position: absolute;
+    bottom: 20px;
+    color: #d5122f;
+    border: 0;
+    background: none;
+    z-index: 1;
+}
 .slick-slide > div {
   /* //transform: scale(1); */
   transition: transform .3s cubic-bezier(.4,0,.2,1);
