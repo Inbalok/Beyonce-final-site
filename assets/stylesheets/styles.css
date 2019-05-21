@@ -20,18 +20,18 @@ EDIT ON
     padding-bottom: 40px;
 }
 
-&.prev{
+.prev{
       display: block;
       height: 20px;
       width: 20px;
       background: url('../img/back.png') no-repeat;
     }
 
-    &.next{
+  .next{
       display: block;
       height: 20px;
       width: 20px;
-      background: url('../img/next.png') no-repeat;
+      background: #ffffff no-repeat;
     }
 
 .slick-slide > div {
