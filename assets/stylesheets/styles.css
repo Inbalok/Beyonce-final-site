@@ -22,18 +22,14 @@ EDIT ON
 
 slick-next {
     position: absolute;
-    bottom: 20px;
-    /* color: #ffffff;
-    border: 0;
-    background: #ffffff;
-    z-index: 1; */
+    /* bottom: 20px; */
 }
 
-.slick-prev:before,
+/* .slick-prev:before,
 .slick-next:before {
   color: black!important;
   background-color: white!important;
-}
+} */
 
 .slick-slide > div {
   /* //transform: scale(1); */
