@@ -21,14 +21,19 @@ EDIT ON
 }
 
 slick-next {
-    font-size: 0;
     position: absolute;
     bottom: 20px;
-    color: #d5122f;
+    /* color: #ffffff;
     border: 0;
-    background: none;
-    z-index: 1;
+    background: #ffffff;
+    z-index: 1; */
 }
+
+.slick-prev:before,
+.slick-next:before {
+  color: white!important;
+}
+
 .slick-slide > div {
   /* //transform: scale(1); */
   transition: transform .3s cubic-bezier(.4,0,.2,1);
