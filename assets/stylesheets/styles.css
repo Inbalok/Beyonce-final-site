@@ -13,6 +13,9 @@ EDIT ON
   margin-left: auto;
   margin-right: auto;
   padding: 0 0;
+  width:1207px;
+  height:234px;
+  margin-top:35px;
 
 }
 .logo {
@@ -267,8 +270,8 @@ slick-next {
     margin-right: 20%;
     margin-top: 20px;
     border-spacing: 20px;
-    width:70%;
-    position: fixed;
+    width:827px;
+    position: fixed;s
   }
 
   tr {
