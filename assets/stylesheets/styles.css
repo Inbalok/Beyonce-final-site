@@ -8,7 +8,13 @@ EDIT ON
   padding: 0px;
   background: #000000;
 }
+.stretch {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0;
 
+}
 .logo {
   display: block;
   margin-left: auto;
@@ -257,8 +263,12 @@ slick-next {
   }
 
   .table {
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 20px;
-    border-spacing: 15px;
+    border-spacing: 20px;
+    width:70%;
+    position: fixed;
   }
 
   tr {
@@ -270,8 +280,24 @@ slick-next {
   p {
   font-family: 'Segoe UI'; sans-serif;
   font-size: 16px;
-  padding-right: 30px;
+  padding-right: 40px;
   }
+.buy{
+  box-sizing: content-box;
+  font-family: 'Rift Soft'; sans-serif;
+  font-size: 22px;
+  font-variant-caps: titling-caps;
+  background-color: black;
+  color: #ffffff;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2), 0 5px 6px 0 rgba(0, 0, 0, 0);
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
 div {
   padding: 5px;
@@ -300,12 +326,19 @@ ul {
 }
 
 .column {
+
   width: 33.33%;
   padding: 10px;
   height: 100px;
 }
-
+.row{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0;
+}
 .row:after {
+  content: "";
   display: table;
   clear: both;
   }
