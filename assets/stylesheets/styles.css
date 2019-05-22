@@ -43,7 +43,7 @@ EDIT ON
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
+/*  shop */
 .filterDiv {
   float: left;
   background-color: #ffffff;
@@ -65,7 +65,8 @@ EDIT ON
 }
 
 #myBtnContainer{
-  text-align: center;
+  text-align: left;
+  margin-left: 650px;
   margin-bottom: 20px;
 }
 
@@ -102,7 +103,7 @@ EDIT ON
   opacity: 0;
   cursor: pointer;
 }
-.box{
+/* .box{
   position: absolute;
   width: 50%;
   position: absolute;
@@ -111,7 +112,7 @@ EDIT ON
  -webkit-transform: translate(-50%, -50%);
  -ms-transform: translate(-50%, -50%);
  transform: translate(-50%, -50%);
-}
+} */
 .wrapper:hover .overlay {
   opacity: 1;
 }
