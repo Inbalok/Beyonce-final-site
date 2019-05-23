@@ -230,12 +230,12 @@ slick-next {
   }
   tr {
     padding: 10px;
-    font-family: 'Rift-soft'; sans-serif;
+    font-family:'Rift Soft', sans-serif;
     font-size: 18px;
   }
 
   p {
-  font-family: 'Rift-soft'; sans-serif;
+  font-family:'Rift Soft', sans-serif;
   font-size: 16px;
   padding-right: 40px;
   padding-top:20px;
@@ -243,7 +243,7 @@ slick-next {
 /* shop */
 .buy{
   box-sizing: content-box;
-  font-family: 'Rift Soft'; sans-serif;
+  font-family:'Rift Soft', sans-serif;
   font-size: 22px;
   font-variant-caps: titling-caps;
   background-color: black;
@@ -264,13 +264,13 @@ div {
 
 /* about  */
 h1 {
-    font-family: 'Rift-soft'; sans-serif;
+    font-family: 'Rift Soft', sans-serif;
     font-size: 30px;
     font-weight: 400;
 }
 
 ul {
-  font-family: 'Rift-soft'; sans-serif;
+  font-family: 'Rift Soft', sans-serif;
   font-size: 16px;
   margin-left: -15px;
 }
