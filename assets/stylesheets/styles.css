@@ -218,7 +218,7 @@ slick-next {
     width:827px;
     position: fixed;
   }
-  
+
   .stretch {
     display: block;
     margin-left: auto;
@@ -230,12 +230,12 @@ slick-next {
   }
   tr {
     padding: 10px;
-    font-family: 'Segoe UI'; sans-serif;
+    font-family: 'Rift-soft'; sans-serif;
     font-size: 18px;
   }
 
   p {
-  font-family: 'Segoe UI'; sans-serif;
+  font-family: 'Rift-soft'; sans-serif;
   font-size: 16px;
   padding-right: 40px;
   padding-top:20px;
@@ -264,13 +264,13 @@ div {
 
 /* about  */
 h1 {
-    font-family: 'Segoe UI'; sans-serif;
+    font-family: 'Rift-soft'; sans-serif;
     font-size: 30px;
     font-weight: 400;
 }
 
 ul {
-  font-family: 'Segoe UI'; sans-serif;
+  font-family: 'Rift-soft'; sans-serif;
   font-size: 16px;
   margin-left: -15px;
 }
