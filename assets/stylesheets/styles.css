@@ -8,15 +8,7 @@ EDIT ON
   padding: 0px;
   background: #000000;
 }
-.stretch {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 0;
-  width:90%;
-  margin-top:35px
 
-}
 .logo {
   display: block;
   margin-left: auto;
@@ -117,7 +109,7 @@ EDIT ON
   opacity: 1;
 }
 
-
+/* media */
 slick-next {
     position: absolute;
 }
@@ -217,16 +209,25 @@ slick-next {
     width: 100%;
     height: auto;
   }
-
+/* tour dates */
   .table {
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 20px;
     border-spacing: 20px;
     width:827px;
-    position: fixed;s
+    position: fixed;
   }
+  
+  .stretch {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0;
+    width:90%;
+    margin-top:35px
 
+  }
   tr {
     padding: 10px;
     font-family: 'Segoe UI'; sans-serif;
@@ -239,7 +240,7 @@ slick-next {
   padding-right: 40px;
   padding-top:20px;
   }
-
+/* shop */
 .buy{
   box-sizing: content-box;
   font-family: 'Rift Soft'; sans-serif;
@@ -261,6 +262,7 @@ div {
   padding: 5px;
 }
 
+/* about  */
 h1 {
     font-family: 'Segoe UI'; sans-serif;
     font-size: 30px;
@@ -273,6 +275,19 @@ ul {
   margin-left: -15px;
 }
 
+.picture {
+  width:573px;
+  height:345px;
+  padding-left: 40px;
+  padding-top: 25px;
+  padding-right:33px;
+  float: left;
+  position:relative
+
+}
+section {
+  padding-bottom: 50px;
+}
 .column {
   margin-top: 40px;
   padding: 10px;
@@ -285,30 +300,3 @@ ul {
     display: table-cell;
     clear: both;
   }
-/* .column {
-  background-color: blue;
-  font-family: 'Segoe UI'; sans-serif;
-  font-size: 16px;
-  float: left;
-  padding: 20px;
-  height: 1px;
- }
-
-@media screen and (max-width: 600px) {
-
-  .column {
-  width: 100%;
-}
-
-.column {
-
-  width: 25%;
-  padding: 10px;
-  height: 100px;
-}
-
-.row:after {
-  display: table;
-  clear: both;
-  }
-} */
